@@ -29,7 +29,8 @@ desc: "Instructions on how to install Jekyll for Lianna."
         3. Install nodejs: ``` $ brew install node ```  
         4. Update homebrew and node: ``` $ brew update && brew doctor ```  
         5. Now check the node version again if all is well: ``` $ node -v ```  
-        6. If something went wrong and you can't figure it out tnen let me know and I'll try to help.  
+        6. If something went wrong and you can't figure it out tnen let me know and I'll try to help.
+ 
     d. Python -- you need to have at least 2.7, check with:
 
         $ python -V
