@@ -4,8 +4,6 @@ title: "Installing Jekyll the Lianna Edition"
 date: 2016-07-22
 desc: "Instructions on how to install Jekyll for Lianna."
 ---
-# Installing Jekyll
-
 ### Verification
 
 1. Verify that you have  
