@@ -1,7 +1,8 @@
 ---
-layout:page
+layout: post
 title: "Installing Jekyll the Lianna Edition"
 date: 2016-07-22
+desc: "Dingbatpoop"
 ---
 # Installing Jekyll
 ### Verification
