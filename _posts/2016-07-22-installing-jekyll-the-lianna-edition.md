@@ -11,32 +11,32 @@ desc: "Instructions on how to install Jekyll for Lianna."
 
         $ which ruby
 
-     > **_Note:_** This should return a folder location, if not then ruby is not installed. If it does return a location do:
-        ``` $ ruby --version ``` for the version update to the desired ruby version needed for Jekyll 2 or 3.
-2. RubyGems -- this should come installed with Ruby automatically, verify with:
+    > **_Note:_** This should return a folder location, if not then ruby is not installed. If it does return a location do: ``` $ ruby --version ``` to see the version current version of ruby install. Update to the desired Ruby version if needed for Jekyll 2 or 3.
+
+    b. RubyGems -- this should come installed with Ruby automatically, verify with:
 
         $ which gem && gem --version
 
     > **_Note:_** The first part of the command check to see where RubyGems are installed and the second tells you the version (you can do both or just one of the commands).
 
-3. NodeJS -- if you don't know what this is then you don't have it and it doesn't come installed automatically on any OS, but to check to see if you installed it already do:
+    c. NodeJS -- if you don't know what this is then you don't have it and it doesn't come installed automatically on any OS, but to check to see if you installed it already do:
 
         $ node -v
 
     > **_Note:_** If nothing is returned after running that command, then you need to install it (with Homebrew (this makes life sooo much easier)):  
-    1. [Go here](http://brew.sh/)  
-    2. Slap that command in the terminal -- wait for it to install  
-    3. Install nodejs: ``` $ brew install node ```  
-    4. Update homebrew and node: ``` $ brew update && brew doctor ```  
-    5. Now check the node version again if all is well: ``` $ node -v ```  
-    6. If something went wrong and you can't figure it out tnen let me know and I'll try to help.  
-4. Python -- you need to have at least 2.7, check with:
+        1. [Go here](http://brew.sh/)  
+        2. Slap that command in the terminal -- wait for it to install  
+        3. Install nodejs: ``` $ brew install node ```  
+        4. Update homebrew and node: ``` $ brew update && brew doctor ```  
+        5. Now check the node version again if all is well: ``` $ node -v ```  
+        6. If something went wrong and you can't figure it out tnen let me know and I'll try to help.  
+    d. Python -- you need to have at least 2.7, check with:
 
         $ python -V
 
     > **_Note:_** If that command does something else type in: ``` $ exit() ``` to exit python and then do: ``` $ python --help ``` look for the switch to show you the version of python installed.
 
-5. You made it!!
+2. You made it!!
 
 ### Install Jekyll  
 1. Install Jekyll with RubyGems:
